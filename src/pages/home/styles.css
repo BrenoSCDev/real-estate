@@ -1,0 +1,30 @@
+.banner{
+    background-image: url(https://img.freepik.com/fotos-gratis/villa-com-piscina-de-luxo-espetacular-design-contemporaneo-arte-digital-imoveis-casa-casa-e-propriedade-ge_1258-150763.jpg?w=1380&t=st=1695922170~exp=1695922770~hmac=9242909349d38ae08dbf9bb41b5a1f0984f38728e9fe2a5fa2793389fbf0961b);
+    background-size: cover;
+    background-size: 100%;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.card-container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 3em auto 5em auto;
+    gap: 2em;
+    flex-direction: row;
+
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
+}
+
+.title-container{
+    display: flex;
+    flex-direction: row;
+    line-height: 16px;
+    align-items: center;
+    margin: 1em 4em 0 4em;
+}
+
